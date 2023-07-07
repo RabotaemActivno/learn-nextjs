@@ -51,10 +51,13 @@ header {
   text-decoration: none;
   color: white;
 }
+h1, h2, h3 {
+  text-align: center;
+}
 .container {
   flex: 1;
-  display: flex;
-  justify-content: center;
+  margin: 0, auto;
+  width: 500px;
 }
 footer {
   margin-top: auto;
